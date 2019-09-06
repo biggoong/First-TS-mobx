@@ -1,0 +1,14 @@
+@import '~antd/dist/antd.css';
+
+body { 
+  font-family: sans-serif;
+  margin: 30px;
+  display: flex;
+  justify-content: center;
+}
+
+.buttons {
+  width: 200px;
+  display: flex;
+  justify-content: space-between;
+}

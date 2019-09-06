@@ -1,0 +1,1 @@
+export { WrappedRegistrationForm as Registration } from "./Registration"

@@ -1,0 +1,1 @@
+export { WrappedHorizontalLoginForm as Login } from "./Login";
