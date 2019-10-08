@@ -1,3 +1,18 @@
+Есть сайт:
+1) Создать форму входа;
+2) Создать форму регистрации;
+3) Создать контейнер dashboard -> при успешном входе.
+4) Создать собственный RootRouting (в котором будут прописаны все Route) Ex: <Route path='/login' component={LoginContainer} />
+
+Весь код должен быть написан на TS (TypeScript). Соотвественно для stores (mobx) .ts, для react components .tsx
+!!! Все должно быть строготипизированно
+
+В качестве дизайна можно использовать фреймворк antd
+
+Все поля внутри форм должны валидироваться
+
+При хранении данных использовать mobx + inversify (для inject внутри сторов, lazyInject для инжект сторов в React.Component). Создать общий IoC, где будет массив mobx сторов.
+
 This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).
 
 Below you will find some information on how to perform common tasks.<br>
