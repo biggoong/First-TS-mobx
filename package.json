@@ -5,7 +5,7 @@
   "dependencies": {
     "@types/react-router-dom": "^4.3.5",
     "antd": "^3.23.1",
-    "class-validator": "^0.10.0",
+    "class-validator": "^0.14.0",
     "inversify": "^5.0.1",
     "inversify-binding-decorators": "^4.0.0",
     "inversify-inject-decorators": "^3.1.0",
